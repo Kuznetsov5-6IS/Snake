@@ -60,6 +60,8 @@ namespace Snake
             Employee e = new Employee();
             e.age = 42;
             e.pay = 30000;
+
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
         }
     }
 }
